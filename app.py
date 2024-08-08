@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 import os
-import sklearn
+
 
 # Load the models
 knn_model = pickle.load(open('Model/knn_model.pkl', 'rb'))
